@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: arial;
+    color: rgb(0,0,0,0.5);
+}
+
+#p1 {
+    text-align: center;
+    color: black;
+    border-style:double;
+    background-color: aqua;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* p {
+    text-align: center;
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: aqua;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} */
+
+body {
+    background-color: white;
+    background-image: url("indra.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
