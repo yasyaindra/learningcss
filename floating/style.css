@@ -1,0 +1,38 @@
+#wraper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#header {
+    width:100%;
+    height:50px;
+    background: orange;
+    margin-bottom:10px;
+}
+
+#content {
+    padding:20px;
+    background:green;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#artikel {
+    width:600px;
+    height: 700px;
+    float:left;
+    background: orange;
+}
+
+#sidebar {
+    width:200px;
+    height: 500px;
+    float:right;
+    background: orange;
+}
+
+#footer {
+    width:100%;
+    height:50px;
+    background:green;
+}

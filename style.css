@@ -5,12 +5,13 @@ h1 {
     color: rgb(0,0,0,0.5);
 }
 
-#p1 {
+p {
     text-align: center;
     color: black;
-    border-style:double;
-    background-color: aqua;
+    border:10px solid yellow;
+    background-color: lightsalmon;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
 }
 /* p {
     text-align: center;
