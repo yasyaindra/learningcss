@@ -28,6 +28,15 @@ p.p1 {
 }
 
 
+p.ext1 {
+    margin: 30px;
+    border: 3px solid blue;
+    outline-style: groove;
+    outline-color: blue;
+    outline-width: thick;
+    outline-offset: 15px;
+}
+
 #p2 {
     text-align: center;
     border:7px solid lightgreen;
