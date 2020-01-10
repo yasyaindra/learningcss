@@ -1,8 +1,17 @@
 #judul1 {
+    text-decoration: overline;
     text-align: center;
-    font-size: 80px;
-    font-family: arial;
-    color: #00000080;
+    word-spacing: 10px;
+    text-shadow: 3px 2px red;
+}
+p.p1 {
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-indent: 100px;
+    letter-spacing: 5px;
+    line-height: 19px;
+    direction: rtl;
 }
 
 #judul2 {
@@ -18,14 +27,6 @@
     padding-bottom: 10px;
 }
 
-#p1 {
-    text-align: center;
-    color: black;
-    border:10px solid yellow;
-    background-color: lightsalmon;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
-}
 
 #p2 {
     text-align: center;
@@ -35,9 +36,11 @@
 }
 
 #container2 {
-   height: 0.5%;
-   width: 10%;
-   background-color: powderblue
+   white-space: nowrap;
+   width: 50px;
+   overflow: hidden;
+   text-overflow: "---";
+   border:1px solid #000000;
 }
 /* p {
     text-align: center;
