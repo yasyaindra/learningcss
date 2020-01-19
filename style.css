@@ -1,4 +1,4 @@
-#judul1 {
+/*/* #judul1 {
     text-decoration: overline;
     text-align: center;
     word-spacing: 10px;
@@ -26,7 +26,7 @@ p.p1 {
     padding-bottom: 10px;
 }
 
-/* Font */
+/* Font 
 #p2 {
     text-align: center;
     border:7px solid lightgreen;
@@ -55,7 +55,7 @@ p.p1 {
     border: 2px solid rgb(255, 255, 255);
     background-color: aqua;
     font-family:Georgia, 'Times New Roman', Times, serif;
-} */
+} 
 
 body {
     background-color: white;
@@ -63,5 +63,24 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
+} 
+
+    Position*/
+div.static {
+    position:static;
+    border:5px solid lightgreen
 }
 
+div.relative {
+    position:relative;
+    right:30px;
+    border:5px solid lightgreen
+}
+
+div.fix {
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:300px;
+    border:5px solid lightgreen
+}
